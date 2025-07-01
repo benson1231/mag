@@ -1,3 +1,17 @@
+> This is a modified version of the [nf-core/mag](https://github.com/nf-core/mag) pipeline in 2025/06/30, originally developed and licensed under the MIT License by [nf-core/mag team](https://github.com/nf-core/mag/graphs/contributors).
+
+> 📌 本 README 為基於 [nf-core/mag](https://github.com/nf-core/mag) 的修改版本，僅用於學習與紀錄用途，2025/06/30。
+> 原始專案由 [nf-core/mag team](https://github.com/nf-core/mag/graphs/contributors) 開發，原始授權為 MIT License。
+
+
+# Quick run test
+```bash
+nextflow run nf-core/mag \
+   -profile test,docker \
+   --gtdb_db https://data.ace.uq.edu.au/public/gtdb/data/releases/release220/220.0/auxillary_files/gtdbtk_package/full_package/gtdbtk_r220_data.tar.gz \
+   --outdir ./results
+```
+
 <h1>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/images/mag_logo_mascot_dark.png">
