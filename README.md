@@ -6,6 +6,8 @@
 
 # Quick run test
 ```bash
+nextflow run main.nf -profile test,docker --outdir results
+
 nextflow run nf-core/mag \
    -profile test,docker \
    --gtdb_db https://data.ace.uq.edu.au/public/gtdb/data/releases/release220/220.0/auxillary_files/gtdbtk_package/full_package/gtdbtk_r220_data.tar.gz \
